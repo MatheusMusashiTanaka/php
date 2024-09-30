@@ -48,8 +48,40 @@
     border-style: dotted;
     margin-top: 1dvh;
     min-height: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+#action1{
+    display: flex;                            
+    justify-content: center;                
+    align-items: center;   
+    height: 100%;
+    width: 80%;
+    color: azure;
+    font-family:"Pixelify Sans", sans-serif;
+    font-size: 1.2dvw;
 }
 
+#action2{
+    border-left-color: rgb(185, 185, 185);
+    border-left-style: dotted;
+    height: 100%;
+    width: 20%;
+    color: azure;
+    font-family:"Pixelify Sans", sans-serif;
+    font-size: 1.2dvw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+}
+
+.action-class{
+    display: flex;                            
+    justify-content: center;                
+    align-items: center;    
+    font-size: 1.8dvw;
+}
 
 .enemy{
     width: 10dvw;
