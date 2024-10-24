@@ -1,0 +1,8 @@
+{
+    "name": "mainquest/mongo",
+    "description": "setup for mongo",
+    "require": {
+        "mongodb/mongodb": "^1.20"
+    },
+    "license": "MIT"
+}

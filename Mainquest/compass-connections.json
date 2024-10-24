@@ -1,0 +1,26 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "a2ac741c-ec93-4acc-9074-56099d8200a0",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1728069982186"
+        }
+      },
+      "favorite": {
+        "name": "mainquest.jpgkf.mongodb.net"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://tanaka:Musamurai01@mainquest.jpgkf.mongodb.net/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
